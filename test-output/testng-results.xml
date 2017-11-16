@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="1" duration-ms="99217" started-at="2017-11-16T15:03:47Z" finished-at="2017-11-16T15:05:26Z">
+    <groups>
+      <group name="AmazonAccount">
+        <method signature="HomePageTest.creaAccountUsingDataBase()[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="creaAccountUsingDataBase" class="com.wmc.UserDefinedTests.HomePageTest"/>
+      </group> <!-- AmazonAccount -->
+      <group name="HomePage">
+        <method signature="HomePageTest.validateHomePageComponents()[pri:1, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="validateHomePageComponents" class="com.wmc.UserDefinedTests.HomePageTest"/>
+      </group> <!-- HomePage -->
+    </groups>
+    <test name="Amazon_Create_Account" duration-ms="99217" started-at="2017-11-16T15:03:47Z" finished-at="2017-11-16T15:05:26Z">
+      <class name="com.wmc.UserDefinedTests.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2017-11-16T10:03:47Z" finished-at="2017-11-16T10:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethods(java.lang.reflect.Method)[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="beforeMethods" is-config="true" duration-ms="5" started-at="2017-11-16T10:03:47Z" finished-at="2017-11-16T10:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wmc.UserDefinedTests.HomePageTest.creaAccountUsingDataBase() throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method status="PASS" signature="creaAccountUsingDataBase()[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="creaAccountUsingDataBase" duration-ms="38552" started-at="2017-11-16T10:03:47Z" description="get Test data From Database" finished-at="2017-11-16T10:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creaAccountUsingDataBase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="afterMethod" is-config="true" duration-ms="718" started-at="2017-11-16T10:04:25Z" finished-at="2017-11-16T10:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=creaAccountUsingDataBase status=SUCCESS method=HomePageTest.creaAccountUsingDataBase()[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateHomePageComponents()[pri:1, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="validateHomePageComponents" duration-ms="56209" started-at="2017-11-16T10:04:26Z" finished-at="2017-11-16T10:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageComponents -->
+        <test-method status="PASS" signature="beforeMethods(java.lang.reflect.Method)[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="beforeMethods" is-config="true" duration-ms="0" started-at="2017-11-16T10:04:26Z" finished-at="2017-11-16T10:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wmc.UserDefinedTests.HomePageTest.validateHomePageComponents() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethods -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="afterMethod" is-config="true" duration-ms="670" started-at="2017-11-16T10:05:22Z" finished-at="2017-11-16T10:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateHomePageComponents status=SUCCESS method=HomePageTest.validateHomePageComponents()[pri:1, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wmc.UserDefinedTests.HomePageTest@32057e6]" name="afterClass" is-config="true" duration-ms="3052" started-at="2017-11-16T10:05:23Z" finished-at="2017-11-16T10:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wmc.UserDefinedTests.HomePageTest -->
+    </test> <!-- Amazon_Create_Account -->
+  </suite> <!-- 1 -->
+</testng-results>

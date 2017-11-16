@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.wmc.UserDefinedTests.HomePageTest">
+        <methods>
+          <include name="validateWebTable"/>
+          <include name="beforeMethods"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.wmc.UserDefinedTests.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
